@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
 
 
 * {
@@ -80,7 +80,6 @@
 
 .about-title p {
     font-size: 18px;
-    font-weight: bold;
 }
 
 .about-title .primary-btn {
@@ -89,4 +88,41 @@
     border-radius: 6px;
     padding: 8px 15px;
     margin-top: 30px;
+}
+
+
+/* Failure Section */
+.container {
+    width: 1100px;
+    margin: 100px auto;
+}
+
+.failure-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.failure-image {
+    width: 400px;
+}
+
+.failure-title {
+    width: 400px;
+    margin: 100px 0 0 0;
+}
+
+.failure-title h2 {
+    width: 300px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.failure-description {
+    margin: 30px 0;
+}
+
+.failure-description p img {
+    width: 25px;
+    height: 20px;
 }
