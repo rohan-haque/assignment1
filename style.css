@@ -126,3 +126,32 @@
     width: 25px;
     height: 20px;
 }
+
+
+/* Planning Section */
+.my-plan {
+    margin-top: 120px;
+}
+
+.my-plan h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.planning-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs {
+    text-align: center;
+}
+.blogs h3 {
+    font-size: 25px;
+}
+.blogs p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #57606f;
+}
