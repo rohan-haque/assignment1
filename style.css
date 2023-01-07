@@ -155,3 +155,40 @@
     font-weight: 600;
     color: #57606f;
 }
+
+
+/* Small Banner Section */
+.small-banner {
+    padding: 2rem;
+    height: 300px;
+    background-image: url('./images/watch.png'), url('./images/gradient1.png');
+    background-position: right, left;
+    background-blend-mode: soft-light;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    box-shadow:  12px 12px 26px #a8a8a8,
+             -12px -12px 26px #ffffff;
+}
+
+.text-content {
+    width: 450px;
+    margin: 2rem 2rem;
+}
+
+.text-content h2 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.text-content button {
+    border: none;
+    background-color: #B33771;
+    color: #ffffff;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
