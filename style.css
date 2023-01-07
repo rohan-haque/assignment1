@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('./images/banner/banner2.png');
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-description {
+    text-align: right;
+    padding-right: 150px;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.banner p {
+    color: #535c68;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.banner .btn {
+    background-color: #EE5A24;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 20px;
+    font-size: 19px;
+    margin-top: 30px;
+}
